@@ -55,7 +55,7 @@ if( ! ini_get('date.timezone') )
  *     testing
  *     production
  *
- * NOTE: If you change these, also change the error_reporting() code below
+ * NOTE: If ysou change these, also change the error_reporting() code below
  */
 	define('ENVIRONMENT', 'development');
 
