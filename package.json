@@ -1,31 +1,20 @@
 {
-  "name": "perfex",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "npm run development",
-    "development": "mix",
-    "watch": "mix watch",
-    "watch-poll": "mix watch -- --watch-options-poll=1000",
-    "hot": "mix watch --hot",
-    "prod": "npm run production",
-    "production": "mix --production",
-    "build": "mix --production && node build.mjs"
-  },
+  "name": "Perfex",
+  "private": true,
+  "version": "2.3.2",
   "devDependencies": {
-    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
-    "autoprefixer": "^10.4.12",
-    "del": "^7.0.0",
-    "laravel-mix": "^6.0.49",
-    "less": "^4.1.3",
-    "postcss": "^8.4.17",
-    "postcss-import": "^15.0.0",
-    "postcss-nesting": "^10.2.0",
-    "replace-in-file-webpack-plugin": "^1.0.6",
-    "sass": "^1.55.0",
-    "sass-loader": "^13.1.0",
-    "tailwindcss": "^3.2.0"
-  },
-  "dependencies": {
-    "bootstrap": "^3.4.1"
+    "autoprefixer": "^7.2.6",
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-uglify": "^3.4.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-header": "^1.1.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-replace": "^1.0.1",
+    "pixrem": "^3.0.2",
+    "postcss": "^6.0.23"
   }
 }
